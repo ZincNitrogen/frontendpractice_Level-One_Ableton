@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 100%; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 
 }
 
@@ -78,6 +79,7 @@ body {
 
 
 }
+
 
 nav {
     display: flex;
@@ -305,6 +307,7 @@ img {
 
 .article-big {
     font-size: 2rem;
+    font-weight: bold;
 }
 
 .article-small {
@@ -322,3 +325,32 @@ img {
 
 
 
+/* FOOTER */
+
+.footer {
+    border: 2px solid blue;
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    row-gap: 3rem;
+    max-height: 40rem;
+}
+
+.footer li {
+    list-style: none;
+
+}
+
+.footer section {
+
+    border: 2px solid blue;
+
+
+}
+
+.major-footer-heading {
+    font-size: 3rem;
+}
