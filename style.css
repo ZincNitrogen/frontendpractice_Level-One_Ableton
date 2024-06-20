@@ -363,6 +363,8 @@ img {
     justify-content: space-around;
     align-items:baseline;
     font-size: 1.1rem;
+    column-gap: 12rem;
+    
 
 
 }
@@ -373,7 +375,6 @@ img {
     justify-content: flex-start;
     align-items: flex-start;
     row-gap: 5rem;
-    margin-left: 6rem;
     
 
 }
@@ -385,6 +386,19 @@ img {
     align-items: center;
  }
 
+
+
+
+ .signup {
+
+    border: 2px solid red; 
+    margin-right: 6rem;
+    max-width: 30rem;
+
+    
+
+
+ }
 
 /* .social-footer > section {
     border: 2px solid green;
@@ -457,10 +471,18 @@ img {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
+    margin-left: 6rem;
+
   
 
 
 
+
+}
+
+.community {
+
+    margin-left: 6rem;
 
 }
 
